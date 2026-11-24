@@ -1,16 +1,3 @@
-"""Collect and analyze product data from Books to Scrape.
-
-Educational example for an internship task. Use only on websites that permit
-automated access; check the site's terms and robots.txt before changing BASE_URL.
-
-Install:
-    python -m pip install requests beautifulsoup4 pandas openpyxl
-
-Run:
-    python web_data_extraction.py --pages 3
-    python web_data_extraction.py --pages all --output-dir results
-"""
-
 from __future__ import annotations
 
 import argparse
